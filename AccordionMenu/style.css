@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body .accordion{
+    position: relative;
+    top: 100px;
+    height: 70px;
+    width: 500px;
+    color: white;
+    background-color: gray;
+}
+
+body .accordion:hover{
+    transition: 0.50s ease-out;
+    cursor: pointer;
+    background-color: limegreen;
+}
+
+body .accordion #accordionText{
+    position: relative;
+    top: 20px;
+}
+
+body .accordion i{
+    position: relative;
+    top: 20px;
+    right: 20px;
+    float: right;
+}
+
+body .accordionBar{
+    position: relative;
+    top: 150px;
+    height: 70px;
+    display: none;
+    width: 500px;
+    color: white;
+    background-color: navy;
+}
